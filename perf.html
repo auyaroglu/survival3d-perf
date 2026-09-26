@@ -1,0 +1,27 @@
+﻿<!doctype html>
+<html lang="tr" translate="no" class="notranslate">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survival3D Perf Spike</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="google" content="notranslate" />
+    <style>:root{--ground:#0a1018;--panel:#060a10c7;--panel-solid:#070b12;--ink:#d8e2f0;--muted:#8fa3bd;--line:#31425c;--control:#1a2536;--accent:#2f6fd0;--accent-line:#6ea2f0;--good:#6fd99a;--warn:#f0b35c}html,body{background:var(--ground);height:100%;color:var(--ink);-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:none;margin:0;font:11px/1.35 ui-monospace,Menlo,Consolas,monospace;overflow:hidden}#c{touch-action:none;background:var(--ground);width:100%;height:100%;display:block;position:fixed;inset:0}#hud{top:env(safe-area-inset-top,0px);left:env(safe-area-inset-left,0px);pointer-events:none;max-width:calc(100vw - 12px);margin:6px;position:fixed}#hud>*{pointer-events:auto}#stats{background:var(--panel);color:var(--ink);white-space:pre;border-radius:6px;margin:0;padding:6px 8px;overflow:hidden}#toggle{margin-top:4px}#controls{background:var(--panel);border-radius:6px;max-width:330px;margin-top:4px;padding:6px 8px}#controls.closed{display:none}.row{flex-wrap:wrap;align-items:center;gap:3px;margin:3px 0;display:flex}.row>span{width:70px;color:var(--muted)}button{font:inherit;color:var(--ink);background:var(--control);border:1px solid var(--line);border-radius:4px;min-width:34px;padding:6px 9px}button:focus-visible{outline:2px solid var(--accent-line);outline-offset:1px}button.on{background:var(--accent);border-color:var(--accent-line);color:#fff}#joy-base,#joy-knob{pointer-events:none;border-radius:50%;display:none;position:fixed;transform:translate(-50%,-50%)}#joy-base{background:#ffffff0d;border:2px solid #ffffff40;width:120px;height:120px}#joy-knob{background:#ffffff4d;width:52px;height:52px}#result{background:var(--panel-solid);color:var(--ink);border:1px solid var(--line);border-radius:8px;flex-direction:column;gap:8px;padding:12px;display:none;position:fixed;inset:8% 16px}#result-status{color:var(--muted);font-size:12px}#result-status.saved{color:var(--good)}#result-status.manual{color:var(--warn)}#result textarea{box-sizing:border-box;background:var(--ground);width:100%;color:var(--ink);border:1px solid var(--line);font:inherit;-webkit-user-select:text;user-select:text;flex:1}</style>
+    <script type="module" crossorigin src="./assets/perf-BnZknB0W.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/style-IZIb9ogx.js">
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <div id="hud">
+      <pre id="stats">yÃ¼kleniyorâ€¦</pre>
+      <button id="toggle">â˜° ayarlar ve testler</button>
+      <div id="controls" class="closed"></div>
+    </div>
+    <div id="joy-base"></div>
+    <div id="joy-knob"></div>
+    <div id="result">
+      <div id="result-status"></div>
+      <textarea id="result-text" readonly></textarea>
+      <div class="row"><button id="result-copy">Kopyala</button><button id="result-close">Kapat</button></div>
+    </div>
+  </body>
+</html>
