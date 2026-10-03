@@ -1,0 +1,74 @@
+{
+ "name": "brood_mother",
+ "vertexCount": 694,
+ "triangles": 1224,
+ "rows": 189,
+ "shadowSize": 2.2,
+ "doubleSided": false,
+ "height": 1.13,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 16,
+   "loop": true,
+   "duration": 1.0
+  },
+  {
+   "name": "attack",
+   "start": 17,
+   "frames": 16,
+   "loop": true,
+   "duration": 1.0
+  },
+  {
+   "name": "windup",
+   "start": 34,
+   "frames": 16,
+   "loop": false,
+   "duration": 1.0
+  },
+  {
+   "name": "action",
+   "start": 51,
+   "frames": 8,
+   "loop": true,
+   "duration": 0.5
+  },
+  {
+   "name": "spit",
+   "start": 60,
+   "frames": 14,
+   "loop": false,
+   "duration": 0.9
+  },
+  {
+   "name": "daze",
+   "start": 75,
+   "frames": 24,
+   "loop": true,
+   "duration": 1.6
+  },
+  {
+   "name": "death",
+   "start": 100,
+   "frames": 88,
+   "loop": false,
+   "duration": 4.4
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 7344
+  },
+  "colors": {
+   "offset": 7344,
+   "length": 2082
+  },
+  "vat": {
+   "offset": 9428,
+   "length": 1049328
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "name": "marsh_frog",
+ "vertexCount": 567,
+ "triangles": 1006,
+ "rows": 50,
+ "shadowSize": 1.1,
+ "doubleSided": false,
+ "height": 0.839,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 12,
+   "loop": true,
+   "duration": 0.7
+  },
+  {
+   "name": "windup",
+   "start": 13,
+   "frames": 10,
+   "loop": false,
+   "duration": 0.7
+  },
+  {
+   "name": "action",
+   "start": 24,
+   "frames": 8,
+   "loop": true,
+   "duration": 0.4
+  },
+  {
+   "name": "death",
+   "start": 33,
+   "frames": 16,
+   "loop": false,
+   "duration": 0.8
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 6036
+  },
+  "colors": {
+   "offset": 6036,
+   "length": 1701
+  },
+  "vat": {
+   "offset": 7740,
+   "length": 226800
+  }
+ }
+}

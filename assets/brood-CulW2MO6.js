@@ -1,0 +1,1 @@
+import{i as e,t}from"./enemies-KmXXO2M6.js";var n=new URL(`brood_mother-CRNRGqVV.bin`,import.meta.url).href,r=new URL(`brood_mother-AnewBI0s.json`,import.meta.url).href,i={bodies:[{batch:t.broodMother,meta:r,bin:n,windup:e.brood.windup}],soul:{t:2.2,chest:[0,-.16,1.06]}};export{i as pack};

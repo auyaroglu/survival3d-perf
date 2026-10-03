@@ -1,0 +1,74 @@
+{
+ "name": "drowned_king",
+ "vertexCount": 1099,
+ "triangles": 1946,
+ "rows": 173,
+ "shadowSize": 1.9,
+ "doubleSided": false,
+ "height": 2.924,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 16,
+   "loop": true,
+   "duration": 2.0
+  },
+  {
+   "name": "attack",
+   "start": 17,
+   "frames": 18,
+   "loop": true,
+   "duration": 1.0
+  },
+  {
+   "name": "windup",
+   "start": 36,
+   "frames": 20,
+   "loop": false,
+   "duration": 0.9
+  },
+  {
+   "name": "rise",
+   "start": 57,
+   "frames": 24,
+   "loop": false,
+   "duration": 1.6
+  },
+  {
+   "name": "call",
+   "start": 82,
+   "frames": 18,
+   "loop": false,
+   "duration": 1.2
+  },
+  {
+   "name": "dive",
+   "start": 101,
+   "frames": 16,
+   "loop": false,
+   "duration": 1.0
+  },
+  {
+   "name": "death",
+   "start": 118,
+   "frames": 54,
+   "loop": false,
+   "duration": 3.6
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 11676
+  },
+  "colors": {
+   "offset": 11676,
+   "length": 3297
+  },
+  "vat": {
+   "offset": 14976,
+   "length": 1521016
+  }
+ }
+}

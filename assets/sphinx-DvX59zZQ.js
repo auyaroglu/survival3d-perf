@@ -1,0 +1,1 @@
+import{t as e}from"./enemies-KmXXO2M6.js";var t=new URL(`sphinx-8ARBdfEp.bin`,import.meta.url).href,n=new URL(`sphinx-BQsZq3Y4.json`,import.meta.url).href,r={bodies:[{batch:e.sunSphinx,meta:n,bin:t,windup:0}],soul:{t:2.4,chest:[0,.068,.879]}};export{r as pack};
