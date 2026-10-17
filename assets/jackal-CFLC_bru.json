@@ -1,0 +1,53 @@
+{
+ "name": "jackal",
+ "vertexCount": 585,
+ "triangles": 1006,
+ "rows": 64,
+ "shadowSize": 0.95,
+ "doubleSided": false,
+ "height": 1.439,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 16,
+   "loop": true,
+   "duration": 0.52
+  },
+  {
+   "name": "attack",
+   "start": 17,
+   "frames": 14,
+   "loop": true,
+   "duration": 0.7
+  },
+  {
+   "name": "windup",
+   "start": 32,
+   "frames": 14,
+   "loop": false,
+   "duration": 0.85
+  },
+  {
+   "name": "death",
+   "start": 47,
+   "frames": 16,
+   "loop": false,
+   "duration": 0.8
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 6036
+  },
+  "colors": {
+   "offset": 6036,
+   "length": 1755
+  },
+  "vat": {
+   "offset": 7792,
+   "length": 299520
+  }
+ }
+}
