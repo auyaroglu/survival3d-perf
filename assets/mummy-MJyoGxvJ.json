@@ -1,0 +1,53 @@
+{
+ "name": "mummy",
+ "vertexCount": 666,
+ "triangles": 1148,
+ "rows": 68,
+ "shadowSize": 1.0,
+ "doubleSided": false,
+ "height": 1.66,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 16,
+   "loop": true,
+   "duration": 1.05
+  },
+  {
+   "name": "attack",
+   "start": 17,
+   "frames": 14,
+   "loop": true,
+   "duration": 0.9
+  },
+  {
+   "name": "windup",
+   "start": 32,
+   "frames": 16,
+   "loop": false,
+   "duration": 1.2
+  },
+  {
+   "name": "death",
+   "start": 49,
+   "frames": 18,
+   "loop": false,
+   "duration": 0.9
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 6888
+  },
+  "colors": {
+   "offset": 6888,
+   "length": 1998
+  },
+  "vat": {
+   "offset": 8888,
+   "length": 362304
+  }
+ }
+}
