@@ -1,0 +1,53 @@
+{
+ "name": "web_spitter",
+ "vertexCount": 498,
+ "triangles": 864,
+ "rows": 62,
+ "shadowSize": 1.3,
+ "doubleSided": false,
+ "height": 0.705,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 16,
+   "loop": true,
+   "duration": 0.6
+  },
+  {
+   "name": "windup",
+   "start": 17,
+   "frames": 16,
+   "loop": false,
+   "duration": 0.8
+  },
+  {
+   "name": "action",
+   "start": 34,
+   "frames": 8,
+   "loop": false,
+   "duration": 0.4
+  },
+  {
+   "name": "death",
+   "start": 43,
+   "frames": 18,
+   "loop": false,
+   "duration": 0.9
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 5184
+  },
+  "colors": {
+   "offset": 5184,
+   "length": 1494
+  },
+  "vat": {
+   "offset": 6680,
+   "length": 247008
+  }
+ }
+}
