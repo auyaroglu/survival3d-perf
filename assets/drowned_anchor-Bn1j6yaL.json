@@ -1,0 +1,32 @@
+{
+ "name": "drowned_anchor",
+ "vertexCount": 80,
+ "triangles": 136,
+ "rows": 13,
+ "shadowSize": 0.0,
+ "doubleSided": false,
+ "height": 0.07,
+ "clips": [
+  {
+   "name": "spin",
+   "start": 0,
+   "frames": 12,
+   "loop": true,
+   "duration": 0.45
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 816
+  },
+  "colors": {
+   "offset": 816,
+   "length": 240
+  },
+  "vat": {
+   "offset": 1056,
+   "length": 8320
+  }
+ }
+}

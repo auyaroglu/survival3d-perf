@@ -1,0 +1,53 @@
+{
+ "name": "marsh_crab",
+ "vertexCount": 509,
+ "triangles": 886,
+ "rows": 58,
+ "shadowSize": 1.3,
+ "doubleSided": false,
+ "height": 1.144,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 12,
+   "loop": true,
+   "duration": 0.5
+  },
+  {
+   "name": "attack",
+   "start": 13,
+   "frames": 12,
+   "loop": true,
+   "duration": 0.75
+  },
+  {
+   "name": "windup",
+   "start": 26,
+   "frames": 14,
+   "loop": false,
+   "duration": 1.2
+  },
+  {
+   "name": "death",
+   "start": 41,
+   "frames": 16,
+   "loop": false,
+   "duration": 0.9
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 5316
+  },
+  "colors": {
+   "offset": 5316,
+   "length": 1527
+  },
+  "vat": {
+   "offset": 6844,
+   "length": 236176
+  }
+ }
+}

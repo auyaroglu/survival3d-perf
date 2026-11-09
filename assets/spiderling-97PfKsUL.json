@@ -1,0 +1,46 @@
+{
+ "name": "spiderling",
+ "vertexCount": 299,
+ "triangles": 526,
+ "rows": 49,
+ "shadowSize": 0.95,
+ "doubleSided": false,
+ "height": 0.558,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 12,
+   "loop": true,
+   "duration": 0.42
+  },
+  {
+   "name": "attack",
+   "start": 13,
+   "frames": 18,
+   "loop": true,
+   "duration": 0.9
+  },
+  {
+   "name": "death",
+   "start": 32,
+   "frames": 16,
+   "loop": false,
+   "duration": 0.8
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 3156
+  },
+  "colors": {
+   "offset": 3156,
+   "length": 897
+  },
+  "vat": {
+   "offset": 4056,
+   "length": 117208
+  }
+ }
+}

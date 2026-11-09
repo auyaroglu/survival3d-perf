@@ -1,0 +1,39 @@
+{
+ "name": "drowned_crown",
+ "vertexCount": 175,
+ "triangles": 302,
+ "rows": 36,
+ "shadowSize": 0.0,
+ "doubleSided": false,
+ "height": 0.973,
+ "clips": [
+  {
+   "name": "idle",
+   "start": 0,
+   "frames": 16,
+   "loop": true,
+   "duration": 2.4
+  },
+  {
+   "name": "fall",
+   "start": 17,
+   "frames": 18,
+   "loop": false,
+   "duration": 1.2
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 1812
+  },
+  "colors": {
+   "offset": 1812,
+   "length": 525
+  },
+  "vat": {
+   "offset": 2340,
+   "length": 50400
+  }
+ }
+}

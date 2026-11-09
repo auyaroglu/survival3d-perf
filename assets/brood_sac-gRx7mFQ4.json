@@ -1,0 +1,39 @@
+{
+ "name": "brood_sac",
+ "vertexCount": 184,
+ "triangles": 340,
+ "rows": 28,
+ "shadowSize": 1.2,
+ "doubleSided": false,
+ "height": 1.038,
+ "clips": [
+  {
+   "name": "idle",
+   "start": 0,
+   "frames": 12,
+   "loop": true,
+   "duration": 0.9
+  },
+  {
+   "name": "death",
+   "start": 13,
+   "frames": 14,
+   "loop": false,
+   "duration": 0.7
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 2040
+  },
+  "colors": {
+   "offset": 2040,
+   "length": 552
+  },
+  "vat": {
+   "offset": 2592,
+   "length": 41216
+  }
+ }
+}
