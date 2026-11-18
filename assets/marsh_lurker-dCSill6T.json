@@ -1,0 +1,53 @@
+{
+ "name": "marsh_lurker",
+ "vertexCount": 566,
+ "triangles": 976,
+ "rows": 54,
+ "shadowSize": 1.5,
+ "doubleSided": false,
+ "height": 0.804,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 12,
+   "loop": true,
+   "duration": 0.6
+  },
+  {
+   "name": "windup",
+   "start": 13,
+   "frames": 12,
+   "loop": false,
+   "duration": 0.85
+  },
+  {
+   "name": "action",
+   "start": 26,
+   "frames": 8,
+   "loop": true,
+   "duration": 0.3
+  },
+  {
+   "name": "death",
+   "start": 35,
+   "frames": 18,
+   "loop": false,
+   "duration": 0.9
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 5856
+  },
+  "colors": {
+   "offset": 5856,
+   "length": 1698
+  },
+  "vat": {
+   "offset": 7556,
+   "length": 244512
+  }
+ }
+}

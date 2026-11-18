@@ -1,0 +1,46 @@
+{
+ "name": "scarab",
+ "vertexCount": 297,
+ "triangles": 526,
+ "rows": 57,
+ "shadowSize": 0.96,
+ "doubleSided": false,
+ "height": 0.448,
+ "clips": [
+  {
+   "name": "move",
+   "start": 0,
+   "frames": 12,
+   "loop": true,
+   "duration": 0.45
+  },
+  {
+   "name": "burrow",
+   "start": 13,
+   "frames": 26,
+   "loop": false,
+   "duration": 1.3
+  },
+  {
+   "name": "death",
+   "start": 40,
+   "frames": 16,
+   "loop": false,
+   "duration": 0.8
+  }
+ ],
+ "sections": {
+  "indices": {
+   "offset": 0,
+   "length": 3156
+  },
+  "colors": {
+   "offset": 3156,
+   "length": 891
+  },
+  "vat": {
+   "offset": 4048,
+   "length": 135432
+  }
+ }
+}
